@@ -1,51 +1,51 @@
-var weather = prompt("enter weather name")
-if (weather == "Karachi") {
-    document.write('<div class="card w-50 m-auto mt-5 bg-dark" style="width: 18rem;">' +
-        '<img src="karachi.jpg" class="card-img-top rounded-5" alt="...">' +
+var weather = prompt("Enter the city name \n (Karachi, Lahore, Islamabad, Punjab, Quetta, Balochistan)")
+if (weather == "karachi") {
+    document.write('<div class="card w-50 m-auto mt-5 bg-dark " style="width: 18rem ;">' +
+        '<img src="karachi.jpg" class="card-img-top img-fluid rounded-5 " alt="...">' +
         ' <div class="card-body ">' +
-         '  <h1 class="card-text text-center">' + "Today's " + weather + ' Weather' + '</h1>' +
+         '  <h1 class="card-text text-center">' + "Today's Karachi Weather "+ '</h1>' +
          ' </div>' +         ' </div>');
 }
 
 
-else if (weather == "Lahore") {
+else if (weather == "lahore") {
     document.write('<div class="card w-50 m-auto mt-5 bg-dark" style="width: 18rem;">' +
-        '<img src="party-cloudy.jpg" class="card-img-top rounded-5" alt="...">' +
+        '<img src="party-cloudy.jpg" class="card-img-top rounded-5 img-fluid" alt="...">' +
         ' <div class="card-body ">' +
-         '  <h1 class="card-text text-center">' + "Today's " + weather + ' Weather' + '</h1>' +
+         '  <h1 class="card-text text-center">' + "Today's Lahore Weather " + '</h1>' +
          ' </div>' +         ' </div>');
 }
 
 
- else if (weather == "Islamabad") {
+ else if (weather == "islamabad") {
     document.write('<div class="card w-50 m-auto mt-5 bg-dark" style="width: 18rem;">' +
-        '<img src="islamabad2.jpg" class="card-img-top rounded-5" alt="...">' +
+        '<img src="islamabad2.jpg" class="card-img-top rounded-5 img-fluid" alt="...">' +
         ' <div class="card-body ">' +
-         '  <h1 class="card-text text-center">' + "Today's " + weather + ' Weather' + '</h1>' +
+         '  <h1 class="card-text text-center">' + "Today's Islamabad Weather " + '</h1>' +
          ' </div>' +         ' </div>');
 }
 
-else if (weather == "Quetta") {
+else if (weather == "quetta") {
     document.write('<div class="card w-50 m-auto mt-5 bg-dark" style="width: 18rem;">' +
-        '<img src="snowfall.jpg" class="card-img-top rounded-5" alt="...">' +
+        '<img src="snowfall.jpg" class="card-img-top rounded-5 img-fluid" alt="...">' +
         ' <div class="card-body ">' +
-         '  <h1 class="card-text text-center">' + "Today's " + weather + ' Weather' + '</h1>' +
+         '  <h1 class="card-text text-center">' + "Today's Quetta Weather " + '</h1>' +
          ' </div>' +         ' </div>');
 }
 
-else if (weather == "Balochistan") {
+else if (weather == "balochistan") {
     document.write('<div class="card w-50 m-auto mt-5 bg-dark" style="width: 18rem;">' +
-        '<img src="balochistan.jpg" class="card-img-top rounded-5" alt="...">' +
+        '<img src="balochistan.jpg" class="card-img-top rounded-5 img-fluid" alt="...">' +
         ' <div class="card-body ">' +
-         '  <h1 class="card-text text-center">' + "Today's " + weather + ' Weather' + '</h1>' +
+         '  <h1 class="card-text text-center">' + "Today's balochistan Weather " + '</h1>' +
          ' </div>' +         ' </div>');
 }
 
-else if (weather == "Punjab") {
+else if (weather == "punjab") {
     document.write('<div class="card w-50 m-auto mt-5 bg-dark" style="width: 18rem;">' +
-        '<img src="stormy.avif" class="card-img-top rounded-5" alt="...">' +
+        '<img src="stormy.avif" class="card-img-top rounded-5 img-fluid" alt="...">' +
         ' <div class="card-body ">' +
-         '  <h1 class="card-text text-center">' + "Today's " + weather + ' Weather' + '</h1>' +
+         '  <h1 class="card-text text-center">' + "Today's Punjab Weather " + '</h1>' +
          ' </div>' +         ' </div>');
 }
 
